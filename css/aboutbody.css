@@ -1,0 +1,38 @@
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 15px;
+  }
+
+
+
+  .h6{
+    font-size: 1.5rem;
+    color:#1c3548;
+    margin:0px 0px 10px 0px;
+    line-height: 60px;
+}
+.p{
+    color:#747474;
+}
+
+
+.column.side {
+    width: 30%;
+  }
+
+  .column.middle {
+    width: 70%;
+  }
